@@ -1,5 +1,5 @@
 dssim:
-	g++ dssim.cpp `pkg-config --cflags --libs opencv` -o $@
+	g++ `pkg-config --cflags --libs opencv` $@.cpp -o $@
 
 .PHONY: headers
 headers:

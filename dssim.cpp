@@ -1,15 +1,13 @@
 /*
+	Copyright 2005, 2009 The Developers
+	This program is free software; see LICENSE.txt for details.
+
 	This DSSIM program has been created by Philipp Klaus Krause based on
-	Rabah Mehdi's C++ implementation of SSIM (http://mehdi.rabah.free.fr/SSIM).
+	Rabah Mehdi's C++ implementation of SSIM <http://mehdi.rabah.free.fr/SSIM>.
 	Originally it has been created for the VMV '09 paper
 	"ftc - floating precision texture compression" by Philipp Klaus Krause.
 
-	The latest version of this program can probably be found somewhere at
-	http://www.colecovision.eu.
-
-	It can be compiled using g++ -I/usr/include/opencv -lcv -lhighgui dssim.cpp
-	Make sure OpenCV is installed (e.g. for Debian/ubuntu: apt-get install
-	libcv-dev libhighgui-dev).
+	The last version of this program was found at <http://www.colecovision.eu>.
 
 	DSSIM is described in
 	"Structural Similarity-Based Object Tracking in Video Sequences" by Loza et al.
@@ -17,28 +15,6 @@
 	Thus this implementation used the Ci from the SSIM implementation.
 	SSIM is described in
 	"Image quality assessment: from error visibility to structural similarity" by Wang et al.
-*/
-
-/*
-	Copyright (c) 2005, Rabah Mehdi <mehdi.rabah@gmail.com>
-
-	Feel free to use it as you want and to drop me a mail
-	if it has been useful to you. Please let me know if you enhance it.
-	I'm not responsible if this program destroy your life & blablabla :)
-
-	Copyright (c) 2009, Philipp Klaus Krause <philipp@colecovision.eu>
-
-	Permission to use, copy, modify, and/or distribute this software for any
-	purpose with or without fee is hereby granted, provided that the above
-	copyright notice and this permission notice appear in all copies.
-
-	THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-	WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-	MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-	ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-	WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-	ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-	OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 */
 
 #include <cv.h>
